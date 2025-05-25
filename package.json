@@ -11,5 +11,8 @@
   "license": "ISC",
   "description": "",
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 1000
+  "files.autoSaveDelay": 1000,
+  "dependencies": {
+    "@hapi/hapi": "^21.4.0"
+  }
 }
