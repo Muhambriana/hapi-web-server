@@ -37,8 +37,12 @@ const routes = [
             if(lang === 'id') {
                 return `Hai, ${name}!`;
             }
-            
+
             return `Hello, ${name}!`;
+
+            // Using payload from receive request from body
+            // const { username, password } = request.payload;
+            // return `Welcome ${username}!`;
         },
     },
     {
